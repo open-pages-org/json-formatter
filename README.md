@@ -4,6 +4,10 @@ This is a light-weight JSON formatter which works on the client side. It is writ
 
 If the parse fails then it will attempty to format the object as best as possible with indents and line breaks to make it more readable.
 
+## Demo
+
+You can view the live demo [here](https://json.open-pages.com/).
+
 ## Usage
 
 1. Paste your JSON string into the text area.
@@ -14,7 +18,11 @@ If the parse fails then it will attempty to format the object as best as possibl
 ### Input
 
 ```json
-{"name":"John Doe","age":30,"cars":{"car1":"Ford","car2":"BMW","car3":"Fiat"}}
+{
+  "name": "John Doe",
+  "age": 30,
+  "cars": { "car1": "Ford", "car2": "BMW", "car3": "Fiat" }
+}
 ```
 
 ### Output
